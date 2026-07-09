@@ -1,0 +1,25 @@
+{
+  "name": "zhaozhangchengshi-arcade-backend",
+  "version": "1.0.0",
+  "description": "照章成事游戏工坊 - 后端服务（Express + Node内置SQLite）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "game",
+    "logic-arcade"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
